@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Tech-Shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        #shammu{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container1">
+                <a class="Home Icon" href="./Homepage.html">Tech-Shop</a>
+                <a class="Search Icon" href="#">
+                    <img src="../Projects/AIT_M_UIR_25-11-2024/Sham/ICONS/magnifying-glass-solid.svg" alt="Icon">
+                    <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                </a>
+                <a class="Cart Icon" href="./Shopping Cart.html">
+                    <img src="../Projects/AIT_M_UIR_25-11-2024/Sham/ICONS/cart-shopping-solid.svg" alt="Icon">
+                </a>
+                <!-- Button trigger modal -->
+                <a class="Login Signup" href="#" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" data-bs-toggle="modal" data-bs-target="#LoginFormModal">
+                    <img src="../Projects/AIT_M_UIR_25-11-2024/Sham/ICONS/user-solid.svg" alt="Icon">
+                </a>
+                <!-- SignUp Form Modal -->
+                <div class="modal fade" id="signupform" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="signupform">Signup/Registration</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <Form class="forms">
+                                    <input class="Input 1" type="text" placeholder="Username">
+                                    <input class="Input 2" type="email" placeholder="Email Address">
+                                    <input class="Input 3" type="password" placeholder="Password">
+                                    <input class="Input 4" type="password" placeholder="Confirm Password">
+                                    <input class="Input 5" type="submit" value="Signup">
+                                </Form>
+                                Already have an account
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#LoginFormModal">
+                                    <button class="btn btn-danger ">Login</button>
+                                </a>
+                            </div>          
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Login Form Modal -->
+                <div class="modal fade" id="LoginFormModal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="LoginFormModal">Login Account</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close">
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <Form class="forms">
+                                    <input class="Input 1" type="text" placeholder="Username">
+                                    <input class="Input 2" type="password" placeholder="Password">
+                                    <input class="Input 3" type="submit" value="Login">
+                                </Form>
+                                Create New Account
+                                <button class="btn btn-danger" data-bs-target="#signupform"
+                                    data-bs-toggle="modal"> SignUp/Register
+                                </button>
+                                <br>
+                                <p>--------  or Login with  -----------</p> 
+                                <button type="button" class="btn btn-primary">Facebook</button>
+                                <button type="button" class="btn btn-success">Google</button>
+                                <button type="button" class="btn btn-black text-white border-white">Twitter/X</button>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- BODY OF THE PRODUCT DETAILS -->
+
+    <section class="m-5 d-flex justify-content-center">
+
+        <div class=" ms-2">
+                <div class="card bg-dark m-2 mt-5 mb-5 p-2 text-white border border-5" style="width: 7rem;" >
+                     <img src="../Projects/AIT_M_UIR_25-11-2024/images/products/jbl660nc-1.png" height="100px" >
+                </div>
+                <div class="card bg-dark m-2 mb-5 p-2 border" style="width: 7rem;">
+                     <img src="../Projects/AIT_M_UIR_25-11-2024/images/products/jbl660nc-2.png" height="100px">
+                </div>
+                <div class="card bg-dark m-2 mb-5 p-2 border" style="width: 7rem;">
+                    <img src="../Projects/AIT_M_UIR_25-11-2024/images/products/jbl660nc-3.png"  height="100px">
+                </div>
+                <div class="card bg-dark m-2 mb-5 p-2 border" style="width: 7rem;">
+                    <img src="../Projects/AIT_M_UIR_25-11-2024/images/products/jbl660nc-4.png" height="100px" alt="">
+                </div>
+        </div>
+      
+        <div class=" ms-5">
+          <img src="../Projects/AIT_M_UIR_25-11-2024/images/products/jbl660nc-1.png" height="800px" width="100%">
+        </div>
+    
+    
+        <div class=" ms-5 product-summary">
+            <div class=" col p-3">
+              <h1>JBL Live 660NC</h1>
+              <h3>Wireless Over-Ear NC Headphones</h3>
+              <h6 class="text-danger">★★★★★ | 1234 Ratings </h6>
+            </div>
+         <hr>
+            <div class="  p-3">
+                <div class="d-flex">
+                    <div class="">
+                        <h3>₹9,999 <del class="text-secondary">  ₹14,999</del></h3>
+                        <h5 class="text-success">You Save:₹5,000 (33%)</h5>
+                        <h6>(Inclusive of all taxes)</h6>
+                    </div>
+
+                    <div class=" ms-2 mt-4">
+                        <button class="m-2 bg-success text-white border-none" type="button"> In stock</button>
+                    </div>
+                </div>
+            </div>
+         <hr>
+            <div class="col p-3">
+                <h4>Offers and Discounts</h4>
+                <div class="d-flex mt-4 ">
+                    <div class="border border-3 rounded p-2 me-2 ">
+                        <h5>No Cost EMI on credit card</h5>
+                    </div>
+                    <div class="border border-3 rounded p-2 ms-2">
+                        <h5>Pay Later & Avail cashback</h5>
+                    </div>
+                </div>
+            </div>
+         <hr>
+            <button class="m-2 bg-danger text-white border-none" type="button"> Add to Cart</button>            
+        </div>
+    </section>
+    
+    <section class="">
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="p-5 ms-5">
+                <h4 class="btn btn-danger" style="font-size: 25px;">Specifications</h4>
+            </div>
+            <div class="p-5 ">
+                <h4>Overview</h4>
+            </div>
+            <div class="p-5">
+                <h4>Reviews</h4>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="d-flex ms-5 justify-content-center" >
+      <div class="p-5">
+        <div>
+          <h4>Brand</h4>
+        </div>
+        <div>
+          <h4>Model</h4>
+        </div>
+        <div>
+          <h4>Generic Name</h4>
+        </div>
+        <div>
+          <h4>Headphone Type</h4>
+        </div>
+        <div>
+          <h4>Connectivity</h4>
+        </div>
+        <div>
+          <h4>Microphone</h4>
+        </div>
+      </div>
+    
+      <div class="p-5">
+        <div >
+            <h4>JBL</h4>
+        </div>
+        <div>
+            <h4>JBL Live 660NC</h4>
+        </div>
+        <div>
+            <h4>Headphones</h4>
+        </div>
+        <div>
+            <h4>Over-Ear</h4>
+        </div>
+        <div>
+            <h4>Wireless</h4>
+        </div>
+        <div>
+            <h4>Yes</h4>
+        </div>
+      </div>
+    </section>
+    
+    <!-- RELATED PRODUCTS SECTION -->
+    <div class="p-5 text-center">
+      <h2 style="Text-align:center">Related products</h2>
+    </div>
+        
+       
+    <main class="row1 d-flex ms-5">
+        <section class="card1 ps-4" id="shammu">
+            <div class="card" style="width: 14rem;">
+                <div class="card"  onclick="window.location.href='Product.html'" ></div>
+                    <img src="../Projects/AIT_M_UIR_25-11-2024/images/products/jbl660nc-1.png"  class="card-img-top bg-secondary" alt="" >
+                    <div class="card-body bg-dark text-white">
+                    <h3 class="text-danger">★★★★★</h3>
+                    <h5 class="card-title">JBL Live 660NC</h5>
+                    <p class="card-text text-secondary">Wireless Over-Ear Headphones</p>
+                <hr>
+                    <h4>₹9,999 <del class="text-secondary">₹14,999</del></h4>
+                <br>
+                    <button type="button" class="btn btn-danger btn-sm ps-5 pe-5 ms-3">Add to cart</button>
+                </div>  
+            </div>
+        </section>
+       
+        <section class="card2 ps-4">
+            <div class="card" style="width: 14rem;">
+                <img src="../Projects/AIT_M_UIR_25-11-2024/images/products/boat518-1.png" class="card-img-top bg-secondary" alt="...">
+                <div class="card-body bg-dark text-white">
+                    <h3 class="text-danger">★★★★★</h3>
+                    <h5 class="card-title">Boat Rockerz 518</h5>
+                    <p class="card-text text-secondary">On-Ear Wireless Headphones</p>
+                <hr>
+                    <h4>₹1,299 <del class="text-secondary">₹3,990</del></h4>
+                <br>
+                    <button type="button" class="btn btn-danger btn-sm ps-5 pe-5 ms-3">Add to cart</button>
+                </div>
+            </div>
+        </section>
+    
+        <section class="card3 ps-4">
+            <div class="card" style="width: 14rem;">
+                <img src="../Projects/AIT_M_UIR_25-11-2024/images/products/boat131-1.png" class="card-img-top bg-secondary" alt="...">
+                <div class="card-body bg-dark text-white">
+                    <h3 class="text-danger">★★★★★</h3>
+                    <h5 class="card-title">Boat Airdopes 131</h5>
+                    <p class="card-text text-secondary">Wireless In-Ear Earbuds</p>
+                <hr>
+                    <h4>₹1,099 <del class="text-secondary">₹2,999</del></h4>
+                <br>
+                    <button type="button" class="btn btn-danger btn-sm ps-5 pe-5 ms-3">Add to cart</button>
+                </div>
+            </div>
+        </section>
+    
+      <section class="card3 ps-4">
+        <div class="card" style="width: 14rem;">
+            <img src="../Projects/AIT_M_UIR_25-11-2024/images/products/sonyXb400-1.png" class="card-img-top bg-secondary" alt="...">
+            <div class="card-body bg-dark text-white">
+                <h3 class="text-danger">★★★★★</h3>
+              <h5 class="card-title">Sony XB 400</h5>
+              <p class="card-text text-secondary">Wireless In-Ear Earbuds</p>
+              <hr>
+              <h4>₹2,499 <del class="text-secondary">₹5,999</del></h4>
+              <br>
+              <button type="button" class="btn btn-danger btn-sm ps-5 pe-5 ms-3">Add to cart</button>
+            </div>
+          </div>
+    </section>
+    <section class="card4 ps-4 ">
+      <div class="card" style="width: 14rem;">
+          <img src="../Projects/AIT_M_UIR_25-11-2024/images/products/boat110-1.png" class="card-img-top bg-secondary" alt="...">
+          <div class="card-body bg-dark text-white">
+              <h3 class="text-danger">★★★★</h3>
+            <h5 class="card-title">boat BassHeads 110</h5>
+            <p class="card-text text-secondary">In-Ear Wired Earphones</p>
+            <hr>
+            <h4>₹449 <del class="text-secondary">₹999</del></h4>
+            <br>
+            <button type="button" class="btn btn-danger btn-sm ps-5 pe-5 ms-3">Add to cart</button>
+          </div>
+        </div>
+    </section>
+    </main>
+       
+      
+
+    
+
+
+
+
+
+
+
+
+    <!-- OUR ADVANTAGES Section Part -->
+
+<section class="bg-secondary m-3 mt-5 AdvSection" style="background: none !important;">
+    <h3 class="text-center AdvHead" >Our Advantages</h3>
+    <div class="row m-5 p-5 AdvBlock">
+        <div class="col ms-5 d-flex">
+           <div class="p-2">
+              <i class="fa fa-truck" style="font-size:48px;color:red"></i>
+           </div>
+          <div>
+             <h5>Express Delivery</h5>
+             <h6>Ships in 24 Hours</h6>
+          </div>
+        </div>
+      
+        <div class="col d-flex">
+          <div class="p-2">
+               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#E80202" class="bi bi-shield-shaded" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"  d="M8 14.933a1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56" />
+              </svg>
+          </div>
+           <div>
+              <h5>Brand Warranty</h5>
+              <h6>99% Original Products</h6>
+           </div>
+        </div>
+
+          
+        <div class="col d-flex">
+            <div class="p-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#E80202" class="bi bi-tags-fill" viewBox="0 0 16 16">
+                  <path d="M2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586zm3.5 4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
+                  <path d="M1.293 7.793A1 1 0 0 1 1 7.086V2a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l.043-.043z"/>
+              </svg>
+            </div>
+            <div>
+                <h5>Exciting Deals</h5>
+                <h6>On all Prepaid order</h6>
+            </div>
+        </div>
+      
+        <div class="col d-flex">
+            <div class="p-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#E80202" class="bi bi-credit-card-fill" viewBox="0 0 16 16">
+                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1H0zm0 3v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7zm3 2h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1" /> 
+              </svg>
+            </div>
+            <div>
+              <h5>Secure Payments</h5>
+              <h6>SSL/Secure certificate</h6>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- FOOTER SECTION FOR ALL PAGES -->
+
+    <footer class="Ftr-container1">
+        <div class="Footer block left">
+            <h2>Tech-Shop</h2>
+            <p>Subscribe to our Email alerts to receive early discount offers, and new products info</p>
+            <form>
+                <input type="email" class="form-email" placeholder="Email Address">
+                <button type="submit" class="submit-button">Subscribe</button>
+            </form>
+        </div>
+        <div class="Footer block help">
+            <h4>Help</h4>
+            <ul>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Track Order</a></li>
+                <li><a href="#">Cancel Order</a></li>
+                <li><a href="#">Return Order</a></li>
+                <li><a href="#">Warrenty Info</a></li>
+            </ul>
+        </div>
+        <div class="Footer block Policies">
+            <h4>Policies</h4>
+            <ul>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Site Map</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+        </div>
+        <div class="Footer block company">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Service Centers</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Affiliates</a></li>
+            </ul>
+        </div>
+    </footer>
+    <footer class="Ftr-container2">
+        <div class="footer-end">
+            <p>2025 | All Rights Reserved. Built by | <strong>SHAMRAN</strong></p>
+            <div class="footer-sociallinks">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous">
+    </script>
+
+</body>
+</html>

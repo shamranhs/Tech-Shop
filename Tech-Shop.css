@@ -1,0 +1,508 @@
+
+*{
+    background-color: rgb(34, 38, 39); color: white;
+}
+
+
+/* HEADER NAV STYLING */
+
+.Home{
+    font-size: 50px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-decoration: none ; color: aliceblue; 
+}
+[alt=Icon]{height: 50px; width: 50px; align-items: center; align-content: center;}
+
+.container1{
+    display: grid;
+    grid-template-columns: 85% 5% 5% 5%;
+    text-align: left; align-items: center;
+    padding: 5px;
+}
+/* .Search:hover,.Cart:hover,.Login:hover{
+    border: 2px solid red;     
+} */
+.Input{
+    display: grid;
+    margin: 15px; padding: 5px; border: 3px solid black; 
+    margin-left: 50px;
+    align-content: center; 
+    height: 50px; width: 80%;
+}
+[type=submit]{background-color: red;}
+.modal-body{
+    text-align: center !important;   
+}
+
+
+
+
+/* Carousel Styling */
+
+.carousel-item img{
+    width: 100% !important; height: 650px !important; align-items:end;
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+}
+.carousel-indicators{
+    margin-left: 45% !important;
+    margin-right: 45% !important;
+    background: none !important;
+}
+
+.Slidepot{
+    display: grid;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    font-size: 300px;
+    background: none; text-decoration: none;
+  }
+  .topichead {
+    font-size: 70px; font-style: bold; background: none;
+    margin: 1rem 0;
+    color: #b3b3b3;
+  }
+  .tsubheading{
+    font-size: 30px;
+    margin: 1rem 0;
+    color: #b3b3b3;
+    background:none;
+  }
+  .tprice {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    background: none;
+  }
+  .tcurrent-price {
+    color: #e50914;
+    font-weight: bold;
+    font-size: 80px;
+    background: none;
+  }
+  .toriginal-price {
+    text-decoration: line-through;
+    color: #777;
+    margin-left: 1rem;
+    font-size: 40px;
+    background: none;
+  }
+  .tshop-now {
+    background-color: #e50914;
+    color: #ffffff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .tshop-now:hover {
+    background-color: #b20610;
+  }
+  
+
+
+  /* FEATURED PRODUCTS STYLING */
+
+  .featured-products{
+    position: relative;
+    align-content: end;
+    text-align: center; 
+  }
+
+  
+  /* ALL BODY CARDS STYLING */
+
+  .product-heading h5{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .sub-heading{
+    margin-left: 20%;
+  }
+  .sub-heading p{
+    text-align: center;
+    align-items: center;
+    margin:  20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    
+
+  }
+  .sub-heading>.first-name{
+    background-color: red;
+    border-radius: 20px;
+  }
+  /* .card-browse{
+    border: 2px solid white;
+  } */
+  
+
+  .browse-card-product{
+    width: 18rem !important; height: 34rem !important;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+  }
+
+  .card:hover,.card-browse:hover{
+    transform: scale(1.1);
+  }
+
+
+/* FOOTER STYLING PART */
+/* Footer Container 1 Styling */
+footer{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 40px 20px;    
+}
+
+.Ftr-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+.Footer{
+    margin: 10px;
+    flex: 1;
+    width: 10px;
+    background: none;
+}
+.Footer h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    background: none;
+}
+.Footer p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    background: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: none;   
+}
+
+.form-email {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    width: 30%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: darkred;
+}
+
+.Footer h4 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    background: none;
+    align-content: center;
+    margin-left: 120px;
+    /* text-align: center; */
+}
+.Footer ul {
+    list-style: none;
+    padding: 15px;
+    background: none;
+    align-content: center; 
+    margin-left: 100px;
+    /* text-align: center; */
+    
+}
+.Footer ul li {
+    margin-bottom: 8px;
+    background: none;
+    text-decoration: none;
+}
+
+.Footer ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    background: none;
+    padding: 5px;
+}
+
+.Footer ul li a:hover {
+    color: rgb(47, 141, 228);
+}
+
+  /* Footer Container 2 styling */
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-top: 5px solid darkgray;
+    background-color: black;
+    color: white;
+    align-items: center;
+    font-size: 15px;
+    border-top: 1px solid darkgray;
+}
+.footer-end p {
+    margin: 10px 0;
+    background: none;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer-end strong {
+    color: whitesmoke;
+    background: none;
+}
+.footer-sociallinks {
+    display: flex;
+    gap: 10px;
+    background: none;
+    margin-right: 50px;
+}
+.footer-sociallinks i {
+    font-size: 24px;
+    background: none;
+    padding: 10px;
+    background-color: black;
+}
+.footer-sociallinks i:hover {
+  color:rgb(12, 189, 50);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* CART PAGE.html STYLING */
+
+/* CART PAGE ALL BODY CARDS STYLIYNG */
+
+.cart-content {
+    color: #ccc !important;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  .cart-items {
+    width: 30%;
+    background-color: #222;
+    padding: 10px !important ;
+    border-radius: 5px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #444;
+    padding: 20px;
+  }
+  
+  .product-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+  }
+  
+  .item-details {
+    flex: auto;
+    margin-left: 40px;
+  }
+  
+  .price {
+    display: flex;
+    align-items: center;
+  }
+  
+  .current-price {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ccc;
+    margin-right: 10px;
+  }
+  
+  .original-price {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #888;
+    text-decoration: line-through;
+  }
+  
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .quantity-control button {
+    background-color: #444;
+    border: none;
+    border-radius: 20%;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+   
+  .item-quantity {
+    margin: 0 10px;
+    font-size: 20px;
+    color: red;
+  }
+  
+  .delete-icon {
+    position: relative;
+    bottom: 0px;
+    color: #888;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  
+/* Scroll bar for added cart items styling */
+  .cart-items {
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 65%;
+    background-color: #201c1c;
+    padding: 20px;
+    border-radius: 5px;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-width: auto;
+    scrollbar-color: #888 #222;
+  }  
+/* .cart-items::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .cart-items::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+  }
+  
+  .cart-items::-webkit-scrollbar-thumb:hover {
+    background-color: #666;
+  }
+  
+    span{
+        position: relative;
+        top: 10px;
+    }
+*/
+
+
+
+/* SUMMARY ITEMS STYLING */
+  .order-summary {
+    width: 35%;
+    background-color: rgb(32, 32, 32) !important;
+    position: relative;
+    top: 70px;
+    left: 40px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-right: 150px;
+    height: 580px;
+  }
+  .order-summary h3{background:none;}
+
+  .summary-item {
+    font-size: 18px !important;
+    color: #696969 !important;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background: none;
+  }
+  .summary-item span{background: none;}
+
+  .discount,.free{
+    color: green;
+    font-weight: 600;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 700;
+    background: none;
+  }
+  .total span{background: none;}
+ 
+  .checkout-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  .checkout-btn:hover{
+    background-color: darkred;
+  }
+
+
+/* OUR ADVANTAGES STYLING */
+
+body{
+    background-color: rgb(34, 38, 39) !important; color: white;
+}
+.AdvSection,.AdvHead,.AdvBlock{
+    background: none !important;
+}
+.fa-truck{
+    font-size: 20px !important;
+    margin-top: 10px !important;
+}
+
+
+/* PRODUCT DETAILS HTML PAGE STYLING  */
+
+#shammu{
+  text-decoration: none;
+}
+.product-summary{
+  font-size: 30px;
+}
+.card-text{
+  font-size: 13px;
+}
+
+
